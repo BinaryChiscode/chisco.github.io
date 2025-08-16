@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header, section, footer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: #f0f4f8;
+  padding: 15px;
+  border-radius: 8px;
+}
