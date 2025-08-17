@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  background-color: #ECEBDE;
+  background-color: #F2F2F2;
   color: #4b2e2e;
   margin: 0;
   line-height: 1.6;
@@ -10,13 +10,13 @@ header, section, footer {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background: #C1BAA1;
+  background: #B6B09F;
   border-radius: 10px;
 }
 
 nav {
   display: flex;
-  background-color: #D7D3BF;
+  background-color: #B6B09F;
   justify-content: center;
   gap: 20px;
   padding: 10px 0;
