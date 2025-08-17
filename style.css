@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
-  background-color: #a6b28b;
+  background-color: #ECEBDE;
   color: #4b2e2e;
   margin: 0;
   line-height: 1.6;
@@ -10,24 +10,28 @@ header, section, footer {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background: #1C352D;
+  background: #C1BAA1;
   border-radius: 10px;
 }
 
 nav {
   display: flex;
+  background-color: #D7D3BF;
   justify-content: center;
   gap: 20px;
   padding: 10px 0;
+  margin: 20px auto;  
+  border-radius: 10px;
+  max-width: 700px;
 }
 
 nav a {
   text-decoration: none;
-  color: #2c3e50;
+  color: #4b2e2e;
 }
 
 nav a:hover {
-  color: #3498db;
+  color: #4b2e2e;
 }
 
 .cards {
@@ -41,4 +45,9 @@ nav a:hover {
   background: #f0f4f8;
   padding: 15px;
   border-radius: 8px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #4b2e2e;
 }
